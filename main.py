@@ -20,7 +20,7 @@ if firebase_json:
     cred = credentials.Certificate(cred_dict)
     # ⚠️ REPLACE THE LINK BELOW WITH YOUR REAL FIREBASE DATABASE LINK
     firebase_admin.initialize_app(cred, {
-        'databaseURL': 'https://console.firebase.google.com/u/1/project/prihec-f6d98/database/prihec-f6d98-default-rtdb/data/~2F'
+        'databaseURL': 'https://prihec-f6d98-default-rtdb.firebaseio.com/'
     })
 else:
     print("❌ Firebase JSON environment variable is missing!")
