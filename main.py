@@ -6,7 +6,7 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 
 # --- CONFIGURATION ---
-BOT_TOKEN = "8774795995"  # ⚠️ Put your token here
+BOT_TOKEN = "8774795995:AAE6LpC5x5_J7MeLQgFh6uduu2g1YSFOPxI"  # ⚠️ Put your token here
 ADMIN_ID = 5133262086          # ⚠️ Put your numeric ID here
 BOT_USERNAME = "Galaryi_bot"  # ⚠️ Put your bot username here
 
